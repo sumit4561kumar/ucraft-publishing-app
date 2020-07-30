@@ -15,20 +15,20 @@ Setup/Install Nodejs and NPM
 Download/Setup Postgres, create a Database:-
 Define below environment variables in `.env` file:-
 
-	DB_NAME - Name of database created
-	DB_USER - User for accessing DB
-	DB_PASSWORD - Password for accessing DB
-	DB_HOST - Host at which DB is instantiated
-	DB_PORT - Port at which DB is instantiated
+	DB_NAME - Name of database created(Default - ucraft)
+	DB_USER - User for accessing DB(Default - postgres)
+	DB_PASSWORD - Password for accessing DB(Default - password)
+	DB_HOST - Host at which DB is instantiated(Default - localhost)
+	DB_PORT - Port at which DB is instantiated(Default - 5432)
 
 ### Project Folder setup
 
 Follow below steps to setup the project
 
 ```shell
-git clone https://github.com/sumit4561kumar/ucraft-publishing-app
+git clone https://github.com/sumit4561kumar/ucraft-publishing-app.git
 cd ucraft-publishing-app/
-sudo npm install
+npm install
 ```
 
 ## Run Project
